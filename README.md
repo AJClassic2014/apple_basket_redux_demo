@@ -16,6 +16,7 @@
 * HTML5
 
 ### Features
+![](apple_basket.PNG)
 
 * Simple implementation of picking apples into the basket.
 * The apple will be listed as weight and type.
