@@ -9,10 +9,11 @@ import AppleBasket from './redux/components/AppleBasket.jsx';
 import './assets/styles/index.css';
 
 const store = createStore(reducer, applyMiddleware(thunk));
- const renderApp = () => {
+const renderApp = () => {
    ReactDOM.render(<Provider store={store}>
    <AppleBasket />
    </Provider>,
    document.getElementById('app'));
  };
+
 renderApp();

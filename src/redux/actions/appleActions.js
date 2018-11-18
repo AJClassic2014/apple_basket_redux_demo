@@ -16,7 +16,6 @@ let actions = {
         console.log(e)
         dispatch(actions.errorPickApple(e.statusText));
       })
-
   },
 
   stratPickApple: () => ({

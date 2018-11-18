@@ -1,7 +1,6 @@
 import React from 'react';
 
 class AppleItem extends React.Component {
-  
   shouldComponentUpdate(nextProps) {
     return nextProps.state != this.props.state;
 }

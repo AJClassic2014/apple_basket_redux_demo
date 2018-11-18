@@ -4,7 +4,10 @@ const Button = ({
   picking,
   pickApple
 }) => (
-    <button className={picking ? "disabled" : "btn-pick"} onClick={pickApple}>
+    <button 
+    className={picking ? "disabled" : "btn-pick"} 
+    onClick={pickApple}
+    >
       Pick Apple
 </button>
   );

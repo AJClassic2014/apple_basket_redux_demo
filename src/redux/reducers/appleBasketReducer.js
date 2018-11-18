@@ -20,7 +20,6 @@ const initialState = {
     },
   ],
   picking: false,
-
 };
 
 export default (state = initialState, action) => {

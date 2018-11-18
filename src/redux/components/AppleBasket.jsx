@@ -43,7 +43,6 @@ class AppleBasket extends React.Component {
     return appleList;
   }
 
-
   render() {
     let { actions } = this.props;
     let { picking } = this.props;
@@ -94,8 +93,7 @@ const mapStateToProps = state => {
   return {
   apples: state.apples,
   picking: state.picking,
-  }
- 
+  } 
 }
 
 const mapDispatchToProps = dispatch => ({
