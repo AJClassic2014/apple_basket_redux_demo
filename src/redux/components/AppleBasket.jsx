@@ -19,7 +19,6 @@ class AppleBasket extends React.Component {
     };
 
     let { apples } = this.props;
-    console.log(apples);
       apples.forEach(apple => {
       let select = apple.eaten ? 'appleConsumed' : 'appleCurrent';
       summary[select].quantity++;
@@ -46,7 +45,6 @@ class AppleBasket extends React.Component {
   render() {
     let { actions } = this.props;
     let { picking } = this.props;
-    console.log(picking);
     let summary = this.calculateSummary();
     let {
       appleCurrent: {
@@ -57,7 +55,6 @@ class AppleBasket extends React.Component {
         quantity: consumedQuantity,
         weight: consumedWeight
       }
-
     } = summary;
     return (<div className="basket">
       <div className="title">Apple Basket</div>

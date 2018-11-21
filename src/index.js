@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 
 import reducer from './redux/reducers/appleBasketReducer.js';
 import AppleBasket from './redux/components/AppleBasket.jsx';
-import './assets/styles/index.css';
+import './assets/styles/style_compressed.css';
 
 const store = createStore(reducer, applyMiddleware(thunk));
 const renderApp = () => {
